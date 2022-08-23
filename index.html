@@ -1,0 +1,78 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulário de cadastro</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="image">
+                <img src="imagem/undraw_shopping_re_hdd9.svg" alt="Imagem ilustrativa">
+            </div>
+            <div class="form"> <!-- referente ao formulário-->
+                <form action="#">
+                    <div class="form-header"> <!-- Toppo do formulário-->
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>  
+                        <div class="login-button">
+                            <button><a href="#">Entrar</a></button>
+                        </div>  
+                    </div>
+                    <div class="main-form"> <!-- referente aos inputs do formulário -->
+                        <div class="input-box"> <!--Referente as "caixas" de pergutnas do formulário-->
+                            <label for="firstname">Primeiro nome</label>
+                            <input type="text" name="firstname" id="firstname" placeholder="Digite seu primeiro nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="lastname">Segundo nome</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="Digite seu segundo nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input type="tel" name="number" id="number" placeholder="(xx) xxxxx-xxxx" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input type="password" name="password" id="password" placeholder="Digite sua Senha" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="confirm">Confirme sua senha</label>
+                            <input type="password" name="confirm" id="confirm" placeholder="Confirme sua senha" required>
+                        </div>
+                    </div>
+                    <div class="gender-group">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+                        <div class="gender-inputs">
+                            <input type="radio" name="female" id="female">
+                            <label for="female">Feminino</label>
+                        </div>
+                        <div class="gender-inputs">
+                            <input type="radio" name="male" id="male">
+                            <label for="male">Masculino</label>
+                        </div>
+                        <div class="gender-inputs">
+                            <input type="radio" name="other" id="other">
+                            <label for="other">Outros</label>
+                        </div>
+                        <div class="gender-inputs">
+                            <input type="radio" name="dontsay" id="dontsay">
+                            <label for="dontsay">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                    <div class="final-button">
+                        <button><a href="#">Concluído</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
